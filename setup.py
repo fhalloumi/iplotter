@@ -1,7 +1,7 @@
 from setuptools import setup
 from setuptools import find_packages
 
-__version__ = '0.4.3'
+__version__ = '0.4.4'
 
 if __name__ == '__main__':
 
@@ -17,7 +17,7 @@ if __name__ == '__main__':
         license='MIT',
         packages=find_packages(),
         install_requires=[
-            'Jinja2>=2.0', 'ipython>=3.0', 'notebook>=3.0', 'selenium>=3.0'
+            'Jinja2>=2.0', 'ipython>=3.0', 'notebook>=3.0', 'selenium>=3.0', 'pypandoc>=1.4'
         ],
         zip_safe=False,
         include_package_data=True,
@@ -35,4 +35,5 @@ if __name__ == '__main__':
             'Programming Language :: Python :: 3.4',
             'Programming Language :: Python :: 3.5',
             'Programming Language :: Python :: 3.6',
+            'Programming Language :: Python :: 3.7',
         ])
